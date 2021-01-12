@@ -60,6 +60,7 @@ for i in $(cat ./PNGs.txt)
   #xdotool key Alt+e
   sleep 2
   killall inkscape
+  git add -A && git commit -m "$i"
 done
 
 
